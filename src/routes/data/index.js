@@ -4,7 +4,7 @@ import * as cookie from 'cookie'
 export async function get(event) {
 	console.log('get all')
 	let client = await login(
-		'https://wa-bsd405-psv.edupoint.com/',
+		'https://ca-sanmar-psv.edupoint.com/',
 		event.locals.user.username,
 		event.locals.user.password
 	)
